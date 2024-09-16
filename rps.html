@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="rps.css">
+
 </head>
 <body>
-    <h1> TEstinG</h1>
-    <div id="result"></div>
-    <div id="scores"></div>
-    <div id="finalResult"></div>
-    <button onclick="playGame()">Play</button>
+    <h1> RPS </h1>
+    <div class="btn-container">
+        <div id="result"></div>
+        <div id="scores"></div>
+        <div id="finalResult"></div>
+    </div>
+    <button type="button" class="btn btn-secondary" id="rock"> Rock </button>
+    <button type="button" class="btn btn-warning" id="paper"> Paper </button>
+    <button type="button" class="btn btn-light" id="scrisors"> Scrisors </button>
+    
     <script src="rps.js"></script>
 </body>
 </html>
