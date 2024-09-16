@@ -1,0 +1,9 @@
+.btn-container {
+  display: block;
+  border: 2px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  max-width: max-content;
+}
